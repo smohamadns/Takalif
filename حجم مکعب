@@ -1,0 +1,22 @@
+namespace ConsoleApp11
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter l : ");
+            double l = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter h : ");
+            double h = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("enter w : ");
+            double w = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("the volum is : " + calcu(l, h, w));
+
+        }
+        private static double calcu(double l, double h, double w)
+        {
+            return l * h * w;
+
+        }
+    }
+}
